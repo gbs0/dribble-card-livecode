@@ -1,42 +1,47 @@
 .card-white {
-  
+  background-color: white;
+  padding: 8px;
+  width: 250px;
 }
 
 .card-white .card-white-image {
-  
+	background-size: cover;
+	height: 150px;
+	background-position: center;
+	width: 100%;
 }
 
 .card-white .list-inline {
-  
+ color: #B0B0B0;
+ padding-top: 8px;
+ text-align: right; 
 }
-
-.card-white .list-inline li {
-  
-}
-
-.card-white .btn {
-  
-}
-
-.card-white:hover .btn {
-  
-}
-
 
 .card-user {
-  
+  border-radius: 50%;
+  height: 40px; 
+  width: 40px;
+  background-image: url('https://via.placeholder.com/150');
+  display: flex;
+  align-items: center;
 }
+
 .card-user a {
-  
+  text-align: right;
+  margin: 20px 0px 20px 50px;
+  align-self: center;
+  color: #4B94BD;
 }
 
 .card-user a:hover {
-  
+  color: #3F7EA3;
 }
 
 
 .cards {
-  
+ 	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 
